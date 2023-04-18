@@ -2,7 +2,7 @@
 # NOTE: OpenStack avoids some versions of eventlet, because of the
 # following issue.
 # https://github.com/eventlet/eventlet/issues/401
-eventlet==0.31.2 # Needed to run on 22.04 lts
+eventlet==0.33.3 # Needed to run on 22.04 lts
 msgpack>=0.4.0  # RPC library, BGP speaker(net_cntl)
 netaddr
 oslo.config>=2.5.0
